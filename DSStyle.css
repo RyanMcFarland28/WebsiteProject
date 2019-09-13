@@ -1,0 +1,12 @@
+main {
+	padding: 4%;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+		padding-left: 15%;
+		clear: left;
+}
+

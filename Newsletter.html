@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ryan's Percussion Instruments</title>
+	<link rel="shortcut icon" href="DrumSetIcon.gif">
+	<link rel="stylesheet" href="Main.css">
+	<link rel="stylesheet" href="NewsStyle.css">
+</head>
+<body>
+  <header>
+  	<img src="DrumIcon.png" alt="Drum">
+   	<h2>Ryan's Percussion Instruments</h2>
+   	<h3>Anything and Everything For Those in Need!</h3>
+  </header>
+  <nav id="nav_menu">
+  	<ul>
+    	<li><a href="index.html">Home</a></li>
+     	<li><a href="Instruments.html">Instruments</a>
+    		<ul>
+    			<li><a href="Tuned.html">Tuned Percussion</a></li>
+    			<li><a href="Untuned.html">Untuned Percussion</a></li>
+    			<li><a href="Persian.html">Percussion Around <br> the World</a></li>
+    		</ul>
+    	</li>
+    	<li><a href="DSMain.html">Drum Sets</a></li>
+		<li><a href="Newsletter.html" class="current" >Newsletter</a></li>
+    	<li><a href="Contact.html">Contact</a></li>
+	</ul>
+  </nav>
+  <main>
+		<h1> Newsletter Sign-up Form</h1>
+	       	<div class ="form">
+				<form action="Success.html" method="get"
+        		name="Form" id="Form">
+					<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required><br>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required><br>
+					<label for="email">Email Address:</label>
+	        		<input type="email" name="email" id="email" autofocus required><br>
+					<label for="address">Street Address:</label>
+					<input type="text" name="address" id="address" required><br>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city" required><br>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state" required maxlength="2" placeholder="State Abbreviation"><br>
+					<label for="zip">ZIP Code:</label>
+					<input type="text" name="zip" id="zip" required placeholder="xxxxx" 
+				    	   pattern="^\d{5}" title="5 digit ZIP code"><br>
+					<label for="phone">Mobile Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="xxx-xxx-xxxx" 
+				    	   pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Optional, will get newsletter link in a text"><br>
+					<input type="submit" id="submit" value="Sign Me Up!">
+					<input type="reset" id="reset" value="Clear"><br>
+				</form>
+			</div>
+    </main>
+  <footer>
+	<p>&copy; 2018 Ryan McFarland</p>
+  </footer>
+</body>
+</html>

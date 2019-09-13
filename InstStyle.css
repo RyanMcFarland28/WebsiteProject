@@ -1,0 +1,11 @@
+main {
+	padding: 2%;
+}
+
+main h1 a:link, main a:visited {
+	color: blue;
+}
+
+main h1 a:hover, main a:focus {
+	color: red;
+}

@@ -1,0 +1,131 @@
+body  {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	max-width: 200%;
+	width: 95%;                        
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 4px solid black;
+	box-shadow: 0 14px 20px 14px;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+/* Header Styles*/
+header { 
+    background-image: -webkit-linear-gradient(10deg, white 0%, blue 75%, white 100%);
+    background-image: -moz-linear-gradient(10deg, white 0%, blue 75%, white 100%);
+    background-image: -o-linear-gradient(10deg, white 0%, blue 75%, white 100%);
+    background-image: linear-gradient(10deg, white 0%, blue 75%, white 100%);
+    padding: 1.6% 1.875% 1.6% 1.875%;  
+} 
+header img { 
+	float: left; 
+	padding-right: 1.875%;               
+	width: 10%;
+	max-width: 11%;
+	min-width: 11%;
+	padding-left: 2%;
+} 
+header h2 {
+	font-size: 230%;
+	text-align: center;
+}
+header h3 {
+	font-size: 125%;
+	padding-bottom: 2%; 
+	text-align: center;
+}
+/* Navigation menu */
+#nav_menu {
+	clear: left;
+}
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+	width: 20%;                  
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li:hover ul {
+	width: 100%;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	border: 1px solid blue;
+}
+#nav_menu ul li a.current {
+	font-weight: bold;
+	text-decoration: underline;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: blue;
+}
+/* Aside Style */
+aside {
+	float: left; 
+	width: 41%;                        
+	padding: 4% 0% 2% 2%;    
+}
+aside h1 {
+	font-size: 115%;
+}
+aside p {
+	border: .15em solid black;
+	padding: .25em;
+}
+/* Section Style */
+section {
+	width: 45%;                       
+	padding: 4% 2% 2% 0%;     
+	float: right;
+}
+section h1 { 
+	font-size: 115%;
+}
+section p {
+	margin-bottom: 1%;
+	border: .15em solid black;
+	padding: 1%;
+}
+/* Footer Style */
+footer { 
+	clear: both;
+	border-top: 3px solid black;
+	padding: .9375em 1.875% .9375em 1.875%;       
+    background-image: -webkit-linear-gradient(10deg, white 0%, blue 75%, white 100%);
+    background-image: -moz-linear-gradient(10deg, white 0%, blue 75%, white 100%);
+    background-image: -o-linear-gradient(10deg, white 0%, blue 75%, white 100%);
+    background-image: linear-gradient(10deg, white 0%, blue 75%, white 100%);
+} 
+footer p {
+	font-size: 110%;
+	text-align: center;
+}
